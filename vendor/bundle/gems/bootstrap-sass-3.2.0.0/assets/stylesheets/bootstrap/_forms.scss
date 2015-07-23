@@ -393,7 +393,8 @@ input[type="checkbox"] {
 // Heads up! This is mixin-ed into `.navbar-form` in navbars.less.
 
 .form-inline {
-
+    
+    text-align: center;
   // Kick in the inline
   @media (min-width: $screen-sm-min) {
     // Inline-block all the things for "inline"
@@ -401,6 +402,7 @@ input[type="checkbox"] {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: middle;
+        margin: 0px;
     }
 
     // In navbar-form, allow folks to *not* use `.form-group`

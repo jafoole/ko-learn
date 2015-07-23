@@ -34,59 +34,152 @@ img {
     
 }
 
-
-
 .jumbotron {
   text-align: center;
   color: #fff;
-  background: url('https://goo.gl/zryxfz') no-repeat center center;
+  background: url('https://goo.gl/mgr4uA') no-repeat center center;
   background-size: cover;
-  height: 500px;
+  height: 700px;
     margin-top: -170px;
 }
 
 .jumbotron h1 {
-  font-weight: 700;
-  margin-top: 125px;
+    font-weight: 700;
+    margin-top: 125px;
     text-transform: uppercase;
+    padding-top: 80px;
 }
 
 .jumbotron p {
     font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-
-.btn {
-  text-decoration: none;
-  border-radius: 0px;
+.jumbotron-about {
+  text-align: center;
   color: #fff;
+  background: url('https://goo.gl/BdeJuM') no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron-about h1 {
+  font-weight: 700;
+  margin-top: 100px;
+    text-transform: capitalize;
+    font-size: 50px;
 }
 
 
-.btn-search {
-    
-  background-color: #d00a88;
-    padding: 9px 20px;
-    margin: 0 auto;
+.jumbotron-supporting {
+  text-align: center;
+  color: #fff;
+  background: url('https://goo.gl/JZhfyM') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron-supporting h1 {
+    font-weight: 700;
+    margin-top: 125px;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+.jumbotron-supporting p {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.jumbotron-supporting1 {
+  text-align: center;
+  color: #fff;
+  background: url('https://goo.gl/Sk66pj') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron-supporting1 h1 {
+    font-weight: 700;
+    margin-top: 125px;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+.jumbotron-supporting1 p {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.jumbotron-supporting2 {
+  text-align: center;
+  color: #fff;
+  background: url('https://goo.gl/ZUXHPb') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron-supporting2 h1 {
+    font-weight: 700;
+    margin-top: 125px;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 60px;
+}
+
+.jumbotron-supporting2 p {
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.btn-primary {
     color: #fff;
-    border: none;
+    background-color: #d00a88;
+    border-color: #d00a88;
+    padding: 10px 42px;
+    border-radius: 0 !important;
 }
 
 #btn-how {
   border: none;
-  padding: 19px 10px;
+  padding: 10px 50px;
   background: rgba(255, 255, 255, .4);
   color: #fff;
+    border-radius: 0 !important;
 }
 
 .user-input {
-  text-align: center;
-
+    text-align: center;
 }
 
-.form-control {
-  border-radius: 0px;
+.container-form {
+    background-color: rgba(0,0,0,0.6);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 50px;
 }
+
+
+
+.form-inline {
+    padding: 40px;
+      margin: -2px;
+}
+
 
 .welcome {
 	margin-top: 25px;
@@ -139,20 +232,7 @@ img {
 }
 
 
-.jumbotron-about {
-  text-align: center;
-  color: #fff;
-  background: url('https://goo.gl/BdeJuM') no-repeat center center;
-  background-size: cover;
-  height: 300px;
-}
 
-.jumbotron-about h1 {
-  font-weight: 700;
-  margin-top: 100px;
-    text-transform: capitalize;
-    font-size: 50px;
-}
 
 .about-head h4 {
     text-align: center;
@@ -174,24 +254,14 @@ img {
 }
 
 
-.form-control {
-  padding-left: 0;
-  padding-right: 0;
-  border-radius: 0;
-  box-shadow: none;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 1px solid #acacac;
-  margin-bottom: -10px;
-}
 
-www.racefurniture.com.au/media="all"
 .form-control {
-  display: block;
+    margin: -2px;
+    border-radius: 0 !important;
+  display: inline-block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
+  padding: 20px 20px;
   font-size: 14px;
   line-height: 1.42857;
   color: black;
@@ -223,6 +293,11 @@ www.racefurniture.com.au/media="all"
     margin: auto;
 }
 
+.navbar a :hover {
+ background-color: green;
+}
+
+
 .container {
   padding-bottom: 0px;
   padding-top: 0px;
@@ -230,5 +305,27 @@ www.racefurniture.com.au/media="all"
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #CB0E88;
+  color: #fff;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
 }
