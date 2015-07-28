@@ -34,6 +34,16 @@ img {
     
 }
 
+.login-form {
+  padding: 30px;
+  margin: auto;
+  width: 345px;
+}
+ 
+#signup-user {
+  text-align: center;
+}
+
 .jumbotron {
   text-align: center;
   color: #fff;
@@ -41,7 +51,11 @@ img {
   background-size: cover;
   height: 700px;
     margin-top: -170px;
+    margin-bottom: 0px;
 }
+
+
+
 
 .jumbotron h1 {
     font-weight: 700;
@@ -62,6 +76,7 @@ img {
   background: url('https://goo.gl/BdeJuM') no-repeat center center;
   background-size: cover;
   height: 300px;
+    
 }
 
 .jumbotron-about h1 {
@@ -78,6 +93,7 @@ img {
   background: url('https://goo.gl/JZhfyM') no-repeat center center;
   background-size: cover;
   height: 600px;
+    
 }
 
 .jumbotron-supporting h1 {
@@ -293,8 +309,8 @@ img {
     margin: auto;
 }
 
-.navbar a :hover {
- background-color: green;
+.navbar li a :hover {
+ 
 }
 
 
@@ -307,6 +323,8 @@ img {
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
+
+
 
 .dropdown-menu {
   position: absolute;
@@ -329,3 +347,20 @@ img {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
 }
+
+.navbar .dropdown-menu {
+    position: absolute;
+    top: 55px;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #d00a88;
+  background-color: transparent;
+}
+
