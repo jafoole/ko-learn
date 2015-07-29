@@ -2,11 +2,13 @@ Rails.application.routes.draw do
   root 'pages#welcome'
 
   get '/about' => 'pages#about'
+    get '/how' => 'pages#how'
   get '/contact' => 'pages#contact'
   get '/signup' => 'users#new'
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
+    
   
   resources :users
   resources :courses do

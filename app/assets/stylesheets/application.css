@@ -223,9 +223,9 @@ img {
 .footer {
   background-image: url("https://41.media.tumblr.com/af52bf6d5f0f792d97e37ba498fb21da/tumblr_nrklyej7Sx1qlcwy7o1_1280.jpg");
   color: #fff;
-  padding: 40px 0 20px 0;
+  padding: -40px 0 10px 0;
   text-align: center;
-    height: 300px;
+    height: 400px;
 }
 
 .footer h3 {
@@ -243,7 +243,6 @@ img {
 
 .footer li {
   font-size: inherit;
-    display: inline-block;
     margin: 10px;
 }
 
@@ -255,6 +254,22 @@ img {
     font-weight: 400;
     text-transform: capitalize;
     font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.how-head {
+    margin-top: -90px;
+    margin-bottom: 0px;
+}
+
+.how-head h4 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-top: 100px;
+    color: #fff;
 }
 
 .container-about p {
@@ -364,3 +379,80 @@ img {
   background-color: transparent;
 }
 
+
+.how-it-works {
+    background-color: #FFC600;
+    height: 775px;
+}
+
+.search-amazing-how__image {
+    background: url("http://bit.ly/1gk4jmH") center 0 no-repeat;
+    background-size: cover;
+    height: 310px;
+    margin: 0 auto;
+    max-width: 283px;
+}
+
+
+.share-knowledge-how__image {
+    background: url("http://bit.ly/1MTESSW") center 0 no-repeat;
+    background-size: cover;
+    height: 310px;
+    margin: 0 auto;
+    max-width: 283px;
+}
+
+
+.learn-world-how__image {
+     background: url("http://bit.ly/1OzCcu8") center 0 no-repeat;
+    background-size: cover;
+    height: 310px;
+    margin: 0 auto;
+    max-width: 283px;  
+}
+
+.page-container-responsive {
+    color: #fff;
+}
+
+.page-container-responsive h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.page-container-responsive p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.panel-contrast p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.footer ul li a {
+    text-decoration: none;
+}
+
+.navbar-social {
+    padding: -60px;
+    align-content: center;
+    color: #fff;
+}
+
+.social a {
+    color: #d00a88;
+}
+
+.navbar-social li {
+    text-align: center;
+    display: inline;
+}
