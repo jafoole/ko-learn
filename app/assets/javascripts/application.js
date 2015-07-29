@@ -16,14 +16,14 @@
 //= require_tree .
 
 var main = function() {
-    $('.dropdown').hover(function() {
+    $('.dropdown').click(function() {
         var selectedMenu = $(this).find('.dropdown-menu');
         
         if(selectedMenu.is(':hidden')) {
             $('.dropdown-menu').hide();
         };
         
-        selectedMenu.toggle(500);
+        selectedMenu.toggle();
 });
 };
 
