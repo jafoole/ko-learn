@@ -34,7 +34,7 @@ img {
     
 }
 
-.login-form {
+.form-signin {
   padding: 30px;
   margin: auto;
   width: 345px;
@@ -73,7 +73,7 @@ img {
 .jumbotron-about {
   text-align: center;
   color: #fff;
-  background: url('https://goo.gl/BdeJuM') no-repeat center center;
+  background: url('http://bit.ly/1IcKHaP') no-repeat center center;
   background-size: cover;
   height: 300px;
     
@@ -221,7 +221,7 @@ img {
 }
 
 .footer {
-  background-image: url("https://41.media.tumblr.com/af52bf6d5f0f792d97e37ba498fb21da/tumblr_nrklyej7Sx1qlcwy7o1_1280.jpg");
+  background-image: url("http://bit.ly/1OSGFsG");
   color: #fff;
   padding: -40px 0 10px 0;
   text-align: center;
@@ -439,6 +439,7 @@ a {
 
 
 .footer ul li a {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -456,3 +457,75 @@ a {
     text-align: center;
     display: inline;
 }
+
+.container-signin {
+    padding-top: 60px;
+    text-align: center;
+    background-color: #eee;
+    height: 580px;
+}
+
+#session_email {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#session_password {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+
+.container-signup {
+    padding-top: 60px;
+    text-align: center;
+    background-color: #eee;
+    height: 600px;
+}
+
+#user_first_name {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#user_last_name {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#user_email {
+text-align: center;
+    padding: 10px 40px;
+}
+
+#user_password {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#user_password_confirmation {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#user_description {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#user_image {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.back a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.container-signup {
+    background-color: #eee;
+    height: 900px;
+}
+
